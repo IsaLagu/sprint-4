@@ -1,0 +1,39 @@
+
+
+.wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-bg {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-wrapper {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checked {
+    color: orange;
+  }
+
+
+
+
+  
